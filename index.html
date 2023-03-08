@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook Spammer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Discord Webhook Spammer</h1>
+
+    <h2>Use only for the right reasons, <br>do not abuse, for pranks use it lightly, for scammers - full power!</h2>
+
+    <div class="inputs">
+        <input type="url" placeholder ="Webhook URL" id="wurl">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="text" placeholder = "Bot Username" id="user">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="url" placeholder = "Avatar URL (optional)" id="aurl">\
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="text" placeholder = "Bot Message" id="msg">
+        <br>
+        <br>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="1000" value="5" class="slider" id="myRange">
+            <p>Value: <span id="demo" ></span></p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <button id="btn">Spam</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
